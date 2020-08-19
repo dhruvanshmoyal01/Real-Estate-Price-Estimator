@@ -26,7 +26,7 @@ def get_estimated_price(location, sqft, bhk, bath):
 
 	return round(__model.predict([x])[0], 2)
 
-def load_saved_artifactes():
+def load_saved_artifacts():
 	print('loading saved artifacts... start')
 	global __data_columns
 	global __locations
