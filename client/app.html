@@ -40,7 +40,7 @@
 				<label for="radio-bath-5">5</label>
 			</div>
 		</form>
-		<div>
+		<div class="form">
 			<h2>Location</h2>
 			  <select class="location" name="" id="uiLocations">
 			    <option value="" disabled="disabled" selected="selected">Choose a Location</option>
@@ -48,7 +48,9 @@
 			        <option>Rajaji Nagar</option>
 			  </select>
 		</div>
-		<button class="submit" onclick="onClickedEstimatePrice()" type="button">Estimate Price</button>
+		<div class="submit">
+			<button onclick="onClickedEstimatePrice()" type="button">Estimate Price</button>	
+		</div>
 		<div id="uiEstimatedPrice" class="result">	<h2></h2> </div>
 	</body>
 </html>
